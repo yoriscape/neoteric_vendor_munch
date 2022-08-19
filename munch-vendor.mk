@@ -86,7 +86,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/munch/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/xiaomi/munch/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/xiaomi/munch/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
+    vendor/xiaomi/munch/proprietary/vendor/etc/init/exfat.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/exfat.rc \
     vendor/xiaomi/munch/proprietary/vendor/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batterysecret.rc \
+    vendor/xiaomi/munch/proprietary/vendor/etc/init/init.fpc1540_ko.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpc1540_ko.rc \
+    vendor/xiaomi/munch/proprietary/vendor/etc/init/init.gf_spi_ko.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gf_spi_ko.rc \
     vendor/xiaomi/munch/proprietary/vendor/etc/init/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mi_thermald.rc \
     vendor/xiaomi/munch/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/munch/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
@@ -398,6 +401,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libFace3DTA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFace3DTA.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libFace3D_hlos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFace3D_hlos.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libHalSuperSensorServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHalSuperSensorServer.so \
+    vendor/xiaomi/munch/proprietary/vendor/lib64/libI420colorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libI420colorconvert.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libMIAIHDRhvx_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMIAIHDRhvx_interface.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libPSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPSNPE.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPlatformValidatorShared.so \
@@ -435,9 +439,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
+    vendor/xiaomi/munch/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
+    vendor/xiaomi/munch/proprietary/vendor/lib64/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svarnn.so \
+    vendor/xiaomi/munch/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchilog.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libcvface_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvface_api.so \
+    vendor/xiaomi/munch/proprietary/vendor/lib64/libcvp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp2.so \
+    vendor/xiaomi/munch/proprietary/vendor/lib64/libcvp2_hfi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp2_hfi.so \
+    vendor/xiaomi/munch/proprietary/vendor/lib64/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp_common.so \
+    vendor/xiaomi/munch/proprietary/vendor/lib64/libcvpcpuRev_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvpcpuRev_skel.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libdng_sdk2vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdng_sdk2vendor.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libdualcam_optical_zoom_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_optical_zoom_control.so \
     vendor/xiaomi/munch/proprietary/vendor/lib64/libdualcam_video_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcam_video_optical_zoom.so \
